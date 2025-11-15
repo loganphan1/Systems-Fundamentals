@@ -8,9 +8,12 @@ int main() {
 int i = 1;
 
 LOOP:
-if (i % 15 == 0) goto FIZZBUZZ;
-if (i % 3 == 0) goto FIZZ;
-if (i % 5 == 0) goto BUZZ;
+if (i % 15 == 0)
+goto FIZZBUZZ;
+if (i % 3 == 0)
+goto FIZZ;
+if (i % 5 == 0)
+goto BUZZ;
 printf("%d", i);
 printf("\n");
 goto STEP;
